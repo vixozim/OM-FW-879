@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Confirmación | Flexways</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+    
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+    
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+    
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+        
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/star-rating.css" rel="stylesheet">
+    
+            
+    <link rel="stylesheet" type="text/css" href="daterangepicker-master/daterangepicker.css" />
+    <link rel="stylesheet" href="js/jquery-timepicker-1.3.5/jquery.timepicker.min.css">
+    
+    <style>
+
+        .green-text2{
+            color: #F68521;
+        }
+        
+        .danger-text2{
+            color: #000000;
+        }
+        
+        .yellow-text2{
+            color: yellow;
+        }
+        
+            </style>
+    
+    
+    
+    </head>
+<body id="home" class="wide">
+    <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
+    <script>
+      var wa_btnSetting = {"btnColor":"#16BE45","ctaText":"","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"right","whatsAppNumber":"541152599877","welcomeMessage":"Hello","zIndex":999999,"btnColorScheme":"light"};
+      window.onload = () => {
+        _waEmbed(wa_btnSetting);
+      };
+    </script>
+  
+<!-- Spinner Start -->
+<div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-grow text-primary" role="status"></div>
+</div>
+<!-- Spinner End -->
+
+<!-- WRAPPER -->
+
+
+
+
+
+
+
+
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center border-end  px-lg-5">
+            <img src="img/logo_fw.jpg" class="img-fluid logo ">
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="#" class="nav-item nav-link" style="color: rgb(29, 150, 29);">Politica CO2 NEUTRO</a>
+                <a href="#" class="nav-item nav-link active">Mis Reservas</a>
+                <a href="#" class="nav-item nav-link">Web Check In</a>
+             
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">USD</a>
+                    <div class="dropdown-menu bg-light m-0">
+                        <a href="feature.html" class="dropdown-item">AR$</a>
+                        <a href="appointment.html" class="dropdown-item">EURO</a>
+                       
+                    </div>
+                </div>
+                <div class="nav-item dropdown  has-megamenu">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true">ES</a>
+                    <div class="dropdown-menu megamenu  bg-light m-0">
+                        <div class="row g-3">
+                            <div class="col-lg-12">
+                                <h6 class="title">Seleccionar Idioma</h6>
+                                </div>
+                            <div class="col-lg-3 col-6">
+                                <div class="col-megamenu">
+                                   <ul class="list-unstyled" style="margin: 0px;">
+                                        <li><a href="#"><picture>
+                                            <source
+                                              type="image/webp"
+                                              srcset="https://flagcdn.com/20x15/za.webp,
+                                                https://flagcdn.com/40x30/za.webp 2x,
+                                                https://flagcdn.com/60x45/za.webp 3x">
+                                            <source
+                                              type="image/png"
+                                              srcset="https://flagcdn.com/20x15/za.png,
+                                                https://flagcdn.com/40x30/za.png 2x,
+                                                https://flagcdn.com/60x45/za.png 3x">
+                                            <img
+                                              src="https://flagcdn.com/20x15/za.png"
+                                              width="20"
+                                              height="15"
+                                              alt="South Africa">
+                                          </picture> Afrikaans</a></li>
+                                        <li><a href="#"><picture>
+                                            <source
+                                              type="image/webp"
+                                              srcset="https://flagcdn.com/20x15/es.webp,
+                                                https://flagcdn.com/40x30/es.webp 2x,
+                                                https://flagcdn.com/60x45/es.webp 3x">
+                                            <source
+                                              type="image/png"
+                                              srcset="https://flagcdn.com/20x15/es.png,
+                                                https://flagcdn.com/40x30/es.png 2x,
+                                                https://flagcdn.com/60x45/es.png 3x">
+                                            <img
+                                              src="https://flagcdn.com/20x15/es.png"
+                                              width="20"
+                                              height="15"
+                                              alt="España">
+                                          </picture> Español</a></li>
+                                      
+                                    </ul>
+                                </div>  <!-- col-megamenu.// -->
+                            </div><!-- end col-3 -->
+                            <div class="col-lg-3 col-6">
+                                <div class="col-megamenu">
+                                    
+                                    <ul class="list-unstyled"  style="margin: 0px;">
+                                        <li><a href="#"><picture>
+                                            <source
+                                              type="image/webp"
+                                              srcset="https://flagcdn.com/20x15/de.webp,
+                                                https://flagcdn.com/40x30/de.webp 2x,
+                                                https://flagcdn.com/60x45/de.webp 3x">
+                                            <source
+                                              type="image/png"
+                                              srcset="https://flagcdn.com/20x15/de.png,
+                                                https://flagcdn.com/40x30/de.png 2x,
+                                                https://flagcdn.com/60x45/de.png 3x">
+                                            <img
+                                              src="https://flagcdn.com/20x15/de.png"
+                                              width="20"
+                                              height="15"
+                                              alt="Alemania">
+                                          </picture> Aleman</a></li>
+                                        <li><a href="#"><picture>
+                                            <source
+                                              type="image/webp"
+                                              srcset="https://flagcdn.com/20x15/fi.webp,
+                                                https://flagcdn.com/40x30/fi.webp 2x,
+                                                https://flagcdn.com/60x45/fi.webp 3x">
+                                            <source
+                                              type="image/png"
+                                              srcset="https://flagcdn.com/20x15/fi.png,
+                                                https://flagcdn.com/40x30/fi.png 2x,
+                                                https://flagcdn.com/60x45/fi.png 3x">
+                                            <img
+                                              src="https://flagcdn.com/20x15/fi.png"
+                                              width="20"
+                                              height="15"
+                                              alt="Finlandia">
+                                          </picture> Finlandes</a></li>
+                                       
+                                    </ul>
+                                </div>  <!-- col-megamenu.// -->
+                            </div><!-- end col-3 -->
+                            <div class="col-lg-3 col-6">
+                                <div class="col-megamenu">
+                                   
+                                    <ul class="list-unstyled" style="margin: 0px;">
+                                        <li><a href="#"><picture>
+                                            <source
+                                              type="image/webp"
+                                              srcset="https://flagcdn.com/20x15/ch.webp,
+                                                https://flagcdn.com/40x30/ch.webp 2x,
+                                                https://flagcdn.com/60x45/ch.webp 3x">
+                                            <source
+                                              type="image/png"
+                                              srcset="https://flagcdn.com/20x15/ch.png,
+                                                https://flagcdn.com/40x30/ch.png 2x,
+                                                https://flagcdn.com/60x45/ch.png 3x">
+                                            <img
+                                              src="https://flagcdn.com/20x15/ch.png"
+                                              width="20"
+                                              height="15"
+                                              alt="Suiza">
+                                          </picture> Suizo</a></li>
+                                        <li><a href="#"><picture>
+                                            <source
+                                              type="image/webp"
+                                              srcset="https://flagcdn.com/20x15/pt.webp,
+                                                https://flagcdn.com/40x30/pt.webp 2x,
+                                                https://flagcdn.com/60x45/pt.webp 3x">
+                                            <source
+                                              type="image/png"
+                                              srcset="https://flagcdn.com/20x15/pt.png,
+                                                https://flagcdn.com/40x30/pt.png 2x,
+                                                https://flagcdn.com/60x45/pt.png 3x">
+                                            <img
+                                              src="https://flagcdn.com/20x15/pt.png"
+                                              width="20"
+                                              height="15"
+                                              alt="Portugal">
+                                          </picture> Protugues</a></li>
+                                      
+                                    </ul>
+                                </div>  <!-- col-megamenu.// -->
+                            </div>    
+                            <div class="col-lg-3 col-6">
+                                <div class="col-megamenu">
+                                  
+                                    <ul class="list-unstyled" style="margin: 0px;">
+                                      <li> <a href="#"> <picture>
+                                            <source
+                                              type="image/webp"
+                                              srcset="https://flagcdn.com/20x15/fr.webp,
+                                                https://flagcdn.com/40x30/fr.webp 2x,
+                                                https://flagcdn.com/60x45/fr.webp 3x">
+                                            <source
+                                              type="image/png"
+                                              srcset="https://flagcdn.com/20x15/fr.png,
+                                                https://flagcdn.com/40x30/fr.png 2x,
+                                                https://flagcdn.com/60x45/fr.png 3x">
+                                            <img
+                                              src="https://flagcdn.com/20x15/fr.png"
+                                              width="20"
+                                              height="15"
+                                              alt="Francia">
+                                          </picture> Frances</a>
+                                         </li>
+                                        <li> <a href="#"><picture>
+                                            <source
+                                            type="image/webp"
+                                            srcset="https://flagcdn.com/20x15/it.webp,
+                                                https://flagcdn.com/40x30/it.webp 2x,
+                                                https://flagcdn.com/60x45/it.webp 3x">
+                                            <source
+                                            type="image/png"
+                                            srcset="https://flagcdn.com/20x15/it.png,
+                                                https://flagcdn.com/40x30/it.png 2x,
+                                                https://flagcdn.com/60x45/it.png 3x">
+                                            <img
+                                            src="https://flagcdn.com/20x15/it.png"
+                                            width="20"
+                                            height="15"
+                                            alt="Italia">
+                                        </picture> Italiano</a>
+                                    </li>
+
+                                    </ul>
+                                </div>  <!-- col-megamenu.// -->
+                            </div><!-- end col-3 -->
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <a href="" class="btn btn-primary  py-2  d-lg-block">Llamar<i class="fa fa-phone ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- CONTENT AREA -->
+    <div class="content-area">
+
+        <!-- BREADCRUMBS -->
+        <div class="container-fluid pt-3 pb-3 border border-primary">
+            <div class="container">
+                <div class="row">
+                 
+                    <div class="col-md-4 col-5">
+                        <div class="row">
+                        <div class="col-md-2 desktop">
+                          <img src="img/in.svg" width="40px"/> 
+                        </div>
+                        <div class="col-md-10">
+                             <h6 class="text-primary text-uppercase fs-mobile-1 trn">
+                              <span id="apiom_confirmation_ciudad_desde" class="trn">El Calafate </span><br>
+                              <span id="apiom_confirmation_dia_desde" > 1 </span><span id="apiom_confirmation_mes_desde" > Jun</span> - <span id="apiom_confirmation_hora_desde" >10:00HS</span> </h6>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4  col-5">
+                        <div class="row">
+                            <div class="col-md-2 desktop">
+                              <img src="img/out.svg" width="40px"/> 
+                            </div>
+                            <div class="col-md-10">
+                                 <h6 class="text-primary text-uppercase fs-mobile-1">
+                                <span id="apiom_confirmation_ciudad_hasta" class="trn">El Calafate </span><br>
+                                <span id="apiom_confirmation_dia_hasta" > 7 </span> <span id="apiom_confirmation_mes_desde"> Jun</span> - <span id="apiom_confirmation_hora_hasta" >10:00HS</span> </h6>
+                            </div>
+                            </div>
+                    </div>
+                   
+    
+                    </div>
+            </div>
+        </div>
+        <!-- /BREADCRUMBS -->
+
+        <!-- PAGE WITH SIDEBAR -->
+        <div class="container-fluid pt-1">
+
+
+         
+            <div class="container-xl">
+                <div class="row">
+				
+
+                  
+				
+                    <!-- CONTENT -->
+                        <!-- car post -->
+					<div  id="apiom_container_model">
+
+                        <!-- AUTO -->
+                        <div  class="apiom_model_item">
+                            <div class="row no-gutters pt-2">
+
+                                <div  class="col-lg-6 mt-3">
+                                    <div class="row no-gutters">
+                                        <div  class="col-lg-6 col-6">
+                                    <h5 class="text-primary"><span id="apiom_confirmation_model" class="trn">FORD KUGA</span><br><span id="apiom_confirmation_category" class="text-dark trn fs-7"> o Coche compacto similar </span></h5>
+                                    <img id="apiom_confirmation_photo" src="img/vehiculosModelos/Classic.webp" class="img-fluid pt-2">
+                                    </div>
+
+                                    <div  class="col-lg-6 col-6">
+                                   
+                                        <div class="pt-5">
+                                       
+                                         <small class="fs-7">
+                                                <a  class="text-primary"><img src="img/user.svg" width="25px">
+                                                <span id="apiom_confirmation_capacity" class="trn">5 Pasajeros</span><br>
+                                                <img src="img/nafta.svg" width="25px">
+                                                <span id="apiom_confirmation_tanktype" class="trn">Nafta</span><br>
+                                                <img src="img/caja.svg" width="25px">
+                                                <span id="apiom_confirmation_transmission" class="trn">Manual</span><br>
+                                                <img src="img/puertas.svg" width="25px">
+                                                <span id="apiom_confirmation_doors" class="trn">5 Puertas</span><br>
+                                                <img src="img/maletas.svg" width="25px">
+                                                <span id="apiom_confirmation_equipaje" class="trn">3 Maletas grandes</span></a>
+                                            </small></br>
+                                       
+                                            </div>
+                                
+                               </div>
+                               </div>
+                                </div>
+
+
+                                <div class="col-md-6 mt-3">
+                                    <h5 class="text-primary"><span class="trn">DETALLES DE LA RESERVA</span></h5>
+
+                                    <table id="example" class="table" cellspacing="0" width="100%">
+                                       
+                                        <tbody>
+                                           <tr>
+                                                  
+                                                  <td class="trn fw-bold  text-dark">DÍAS DE ALQUILER </td>  
+                                                  <td id="apiom_day_amount"  class=" text-primary">7</td>                                             
+                                                </tr>
+                                                <tr>
+                                                  
+                                                   <td class="trn fw-bold  text-dark">SEGURO</td>
+                                                  <td id="apiom_seguro_seleccionado" class="text-primary">VIAJERO</td>
+                                                  
+                                                </tr>
+                                                <tr>
+                                                  
+                                                   <td class="trn fw-bold  text-dark">TASAS</td>
+                                                  <td><span class="currencies"><span class="money price">
+                                                        <abbr class="unit text-primary"></abbr>
+                                                        <span id="apiom_price_taxes" class="amount  text-primary">Incluidas</span>
+                                                        <abbr class="currency" title="ARS"></abbr>
+                                                        </span>	</span></td>
+                                                
+                                                  
+                                                </tr>
+                                                <tr>
+                                                  
+                                                   <td class="trn fw-bold  text-dark">ADICIONALES</td>
+                                                  <td><span class="currencies"><span class="money price">
+                                                        <abbr class="unit text-primary">AR$</abbr>
+                                                        <span id="apiom_price_addons" class="amount  text-primary"> 1050,00</span>
+                                                        <abbr class="currency" title="ARS"></abbr>
+                                                        </span>	</span></td>
+                                                  
+                                                </tr>
+                                                <tr>
+                                                  
+                                                   <td class="trn fw-bold  text-dark">DROP OFF</td>
+                                                  <td><span class="currencies"><span class="money price">
+                                                        <abbr class="unit  text-primary">AR$</abbr>
+                                                        <span id="apiom_price_dropoff" class="amount  text-primary">  0</span>
+                                                        <abbr class="currency" title="ARS"></abbr>
+                                                        </span>	</span></td>
+                                                  
+                                                </tr>
+                                                <tr>
+                                                  
+                                                   <td class="trn fw-bold  text-dark">FUERA DE HORARIO</td>
+                                                  <td><span class="currencies"><span class="money price">
+                                                        <abbr class="unit text-primary">AR$</abbr>
+                                                        <span id="apiom_price_outoftime" class="amount  text-primary">  0</span>
+                                                        <abbr class="currency" title="ARS"></abbr>
+                                                        </span>	</span></td>
+                                                  
+                                                </tr>
+                                                <tr>
+                                                  
+                                                   <td class="trn fw-bold  text-dark">DESCUENTO</td>
+                                                  <td><span class="currencies"><span class="money price">
+                                                        <abbr class="unit text-primary">AR$</abbr>
+                                                        <span id="apiom_price_discount" class="amount text-primary">   0</span>
+                                                        <abbr class="currency" title="ARS"></abbr>
+                                                        </span>	</span></td>
+                                                  
+                                                </tr>
+                                                <tr>
+                                                  
+                                                   <td class=" fw-bold  text-dark trn">TOTAL SIN DESCUENTO</td>
+                                                  <td id="apiom_price_container_nodiscount  " class="text-color-skin-grey"><span class="currencies"><span class="money price">
+                                                        <abbr class="unit fw-bold text-primary">AR$</abbr>
+                                                        <span id=" apiom_price_nodiscount" class="amount  fw-bold text-primary">  15.050,00</span>
+                                                        <abbr class="currency" title="ARS"></abbr>
+                                                        </span>	</span></td>
+                                                       
+                                                  
+                                                </tr>
+                                                <tr>
+                                                  
+                                                   
+                                                         <td class=" fw-bold  text-dark trn">TOTAL CON DESCUENTO</td>
+                                                   <td id="apiom_price_container_withdiscount  " class="text-color-skin-grey"><span class="currencies"><span class="money price">
+                                                         <abbr class="unit fw-bold text-primary">AR$</abbr>
+                                                         <span id=" apiom_price_withdiscount" class="amount Clase_del_espacio fw-bold text-primary">  15.050,00</span>
+                                                         <abbr class="currency" title="ARS"></abbr>
+                                                         </span>	</span></td>
+                                                   
+                                                 </tr>
+                                             </tbody>
+                                            </table>
+                                            </div>
+
+
+
+                             
+
+                                </div>
+
+
+                                <div class="row no-gutters mt-3">
+
+                                
+
+
+                                <!--     Confirmada 01 Whatsapp -->
+                                          <!--   <div class="col-md-12 text-center">
+                                                <h1 id="apiom_confirmation_number" class="text-primary fw-light"><span class="trn">Reserva #12345 Confirmada</span> <i class="fa fa-smile text-green"></i></h5>
+                                                    <p class="text-primary fs-6">Gracias por habernos elegido para su próximo viaje. Le recomendamos agendar nuestro número de Whatsapp para estar siempre comunicados. Puedes hacerlo haciendo click en el siguiente Link y guardando el contacto en tu dispositivo.</p>
+
+
+                                                    <a class="btn btn-lg trn"><img src="img/whatsapp.svg" class="img-fluid" width="200px"/></a>
+
+
+                                            </div> -->
+
+                                               <!--     Confirmada 01 Whatsapp -->
+
+                                          <!--   Confirmada 02 Web Check In -->
+                                            <div class="col-md-12 text-center">
+                                                <h1 id="apiom_confirmation_number" class="text-primary fw-light"><span class="trn">Reserva #12345 Confirmada</span> <i class="fa fa-smile text-green"></i></h5>
+                                                    <p class="text-primary fs-6">Gracias por habernos elegido para su próximo viaje. Valoramos su tiempo,portal motivo le recomendamos realizar
+                                                        el Web Check in para que,al momento de tomar el vehículo,no se produzcan demoras innecesarias.</p>
+
+
+                                                    <a class="btn btn-lg trn"><img src="img/web-checkin.svg" class="img-fluid" width="200px"/></a>
+
+
+                                            </div>
+                                             <!--   Confirmada 02 Web Check In -->
+
+
+                                            <!--  ERROR CONFIRMACION -->
+                                          <!--   <div class="col-md-12 text-center">
+                                                <h1 id="apiom_confirmation_number" class="text-primary fw-light"><span class="trn">Algo salió mal, no te preocupes</span> <i class="fa fa-surprise text-red"></i></h5>
+                                                    <p class="text-primary fs-6">Comunícate al siguiente link para que podamos asistirte en la reserva de tu vehículo.</p>
+
+
+                                                    <a class="btn btn-lg trn"><img src="img/whatsapp.svg" class="img-fluid" width="200px"/></a>
+
+
+                                            </div> -->
+                                         <!--  ERROR CONFIRMACION -->
+
+
+                                    
+
+                                  
+                                      
+                                
+                                 
+
+
+
+                                   
+
+
+
+
+                                     </div>
+    
+                                        
+                                   
+                                    </div>
+                                  
+                                    
+                               
+                                    
+                              
+                         
+                       
+                       
+                        
+                      
+                         </div>
+                       
+                        
+                    <!-- /CONTENT -->
+
+                   
+
+                </div>
+            </div>
+        </div>
+        <!-- /PAGE WITH SIDEBAR -->
+
+        
+
+    </div>
+    <!-- /CONTENT AREA -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer my-3 mb-0 py-3 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-2 col-4">
+                    <h4 class="text-white  mb-3 h4-footer desktop">Contacto</h4>
+                    <div class="d-flex pt-1">
+                    <a class="btn btn-square btn-outline-light me-1" href="tel:5411111111"><i class="fa fa-phone"></i> </a>
+                    <a class="btn btn-square btn-outline-light me-1" href="mailto:info@flexways.com"><i class="fa fa-envelope"></i> </a>
+                   </div>
+                </div>
+                <div class="col-lg-3 col-8">
+                    <h4 class="text-light mb-2 h4-footer">Mapa de Sitio</h4>
+                    <a class="btn btn-link h4-footer" href="">Términos & Condiciones</a>
+                    <a class="btn btn-link h4-footer" href="">Sucursales</a>
+                    <a class="btn btn-link h4-footer" href="">Contáctenos</a>
+                    
+                </div>
+                <div class="col-lg-4 col-4">
+                    <p>&nbsp;</p>
+                   <img src="img/ssl-2.png" class="img-fluid">
+                </div>
+                <div class="col-lg-3 col-6">
+                   
+                    <h4 class="text-white  mb-3 h4-footer">Seguinos</h4>
+                    <div class="d-flex pt-1">
+                     
+                        <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-outline-light me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright text-light py-3 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a href="#">Flexways</a>, Todos los derechos reservados.
+                </div>
+                <div class="col-md-6 text-center  text-md-end mb-3 mb-md-0">
+                    <p class="text-light ">Powered by  <img src="img/logo-onemobility.png" width="100px"></p>
+                   
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+ -->
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    
+    <script src="js/jquery-timepicker-1.3.5/jquery.timepicker.min.js"></script>
+    
+    <script type="text/javascript">
+        $(function() {
+        
+          $('input[name="datefilter"]').daterangepicker({
+              autoUpdateInput: false,
+              locale: {
+                  cancelLabel: 'Clear'
+              }
+          });
+        
+          $('input[name="datefilter"]').on('apply.daterangepicker', function(ev, picker) {
+              $(this).val(picker.startDate.format('MM/DD/YYYY') + ' - ' + picker.endDate.format('MM/DD/YYYY'));
+          });
+        
+          $('input[name="datefilter"]').on('cancel.daterangepicker', function(ev, picker) {
+              $(this).val('');
+          });
+        
+        });
+        </script>
+    
+    <script>
+        var inputEle = document.getElementById('.timeInput');
+    
+    
+    function onTimeChange() {
+      var timeSplit = inputEle.value.split(':'),
+        hours,
+        minutes,
+        meridian;
+      hours = timeSplit[0];
+      minutes = timeSplit[1];
+      if (hours > 12) {
+        meridian = 'PM';
+        hours -= 12;
+      } else if (hours < 12) {
+        meridian = 'AM';
+        if (hours == 0) {
+          hours = 12;
+        }
+      } else {
+        meridian = 'PM';
+      }
+      alert(hours + ':' + minutes + ' ' + meridian);
+    }
+        </script>
+   
+
+
+
+
+  <script>
+      // if viewportWidth width <= 991
+      if(window.innerWidth <= 991){
+        // load mobile script
+        loadScriptFile('https://www.vixoz.com/externo/clientes/217flexways2022/js/sticky-form-mobile.js');
+      }
+      else{ // viewportWidth width > 991
+        // load desktop script
+        loadScriptFile('https://www.vixoz.com/externo/clientes/217flexways2022/js/sticky-form.js');
+      }
+      
+      // loadScriptFile func
+      function loadScriptFile(src){
+        // create element <script>
+        const $script = $('<script>');
+        // add type attribute
+        $script.attr('type', 'text/javascript');
+        // add src attribute
+        $script.attr('src', src);
+        // append the <script> element to <head>
+        $script.appendTo('body');
+      }
+      </script>
+
+
+
+<script>
+
+window.onresize = function() {
+    if (window.innerHeight <= 767) { /* Reorder divs for mobile cases */ }        
+    if (window.innerWidth > 767) {  /* Reorder divs for desktop cases */ }
+}
+
+
+
+</script>
+
+</body>
+</html>

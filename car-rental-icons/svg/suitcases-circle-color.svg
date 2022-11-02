@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="32px" height="32px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#5057FB;}
+	.st1{fill:#C93789;}
+	.st2{fill:#ED5C36;}
+	.st3{fill:#AFB224;}
+	.st4{fill:#15B2CC;}
+</style>
+<g id="suitcases_1_">
+	<path class="st4" d="M16,0C7.163,0,0,7.163,0,16s7.163,16,16,16s16-7.163,16-16S24.837,0,16,0z M12,23h-2c-1.103,0-2-0.897-2-2v-8
+		c0-1.103,0.897-2,2-2h2V23z M19,10v1v12h-6V11v-1V9.5C13,9.224,13.224,9,13.5,9h5C18.776,9,19,9.224,19,9.5V10z M24,21
+		c0,1.103-0.897,2-2,2h-2V11h2c1.103,0,2,0.897,2,2V21z"/>
+	<rect x="14" y="10" class="st4" width="4" height="1"/>
+</g>
+</svg>

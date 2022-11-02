@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#5057FB;}
+	.st1{fill:#C93789;}
+	.st2{fill:#ED5C36;}
+	.st3{fill:#AFB224;}
+	.st4{fill:#15B2CC;}
+</style>
+<g id="credit-card_4_">
+	<path class="st3" d="M14.2,2H1.8C0.808,2,0,2.808,0,3.8V5h16V3.8C16,2.808,15.192,2,14.2,2z"/>
+	<path class="st3" d="M0,6v6.2C0,13.192,0.808,14,1.8,14h12.4c0.992,0,1.8-0.808,1.8-1.8V6H0z M12,12c-0.6,0-1.133-0.271-1.5-0.691
+		C10.133,11.729,9.6,12,9,12c-1.103,0-2-0.897-2-2s0.897-2,2-2c0.6,0,1.133,0.271,1.5,0.691C10.867,8.271,11.4,8,12,8
+		c1.103,0,2,0.897,2,2S13.103,12,12,12z"/>
+	<circle class="st3" cx="9" cy="10" r="1"/>
+	<circle class="st3" cx="12" cy="10" r="1"/>
+</g>
+</svg>

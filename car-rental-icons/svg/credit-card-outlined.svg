@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#5057FB;}
+	.st1{fill:#C93789;}
+	.st2{fill:#ED5C36;}
+	.st3{fill:#AFB224;}
+	.st4{fill:#15B2CC;}
+</style>
+<g id="credit-card_2_">
+	<g>
+		<path d="M14,2H2C0.897,2,0,2.897,0,4v8c0,1.103,0.897,2,2,2h12c1.103,0,2-0.897,2-2V4C16,2.897,15.103,2,14,2z M15,12
+			c0,0.552-0.448,1-1,1H2c-0.552,0-1-0.448-1-1V6h14V12z M15,5H1V4c0-0.552,0.448-1,1-1h12c0.552,0,1,0.448,1,1V5z"/>
+	</g>
+	<path d="M10.5,11c0.386,0,0.734-0.15,1-0.39c0.266,0.24,0.614,0.39,1,0.39c0.827,0,1.5-0.673,1.5-1.5S13.327,8,12.5,8
+		c-0.386,0-0.734,0.15-1,0.39C11.234,8.15,10.886,8,10.5,8C9.673,8,9,8.673,9,9.5S9.673,11,10.5,11z M12.5,9
+		C12.775,9,13,9.225,13,9.5S12.775,10,12.5,10S12,9.775,12,9.5S12.225,9,12.5,9z M10.5,9C10.775,9,11,9.225,11,9.5
+		S10.775,10,10.5,10S10,9.775,10,9.5S10.225,9,10.5,9z"/>
+</g>
+</svg>

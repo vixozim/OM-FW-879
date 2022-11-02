@@ -593,5 +593,10 @@ html:not([data-scroll='0']) {
     .promo2 {
         float: right;
     }
+    .btn-group, .btn-group-vertical {
+        position: relative;
+        display: flow-root;
+        vertical-align: middle;
+    }
 
 }

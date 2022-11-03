@@ -15,6 +15,15 @@
     color:limegreen;
 }
 
+.text-co2{
+    color:#157347;
+}
+
+.bg-co2{
+    background-color:#157347;
+    color: #ffffff;
+}
+
 .py-6 {
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -31,6 +40,10 @@
     right: 30px;
     bottom: 30px;
     z-index: 99;
+}
+
+.text-left{
+text-align: left !important;
 }
 
 
@@ -94,6 +107,12 @@
 .header {
     min-height: 80vh;
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(../img/carousel-1.jpg) center center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header2 {
+    min-height: 80vh;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(../img/bg-co2.png) center center no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -490,6 +509,11 @@ html:not([data-scroll='0']) {
       }
 
       .header {
+        min-height: auto;
+        background: none;
+        
+    }
+    .header2 {
         min-height: auto;
         background: none;
         

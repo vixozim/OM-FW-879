@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Paises | Flexways</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    	
+<link rel="stylesheet" type="text/css" href="daterangepicker-master/daterangepicker.css" />
+<link rel="stylesheet" href="js/jquery-timepicker-1.3.5/jquery.timepicker.min.css">
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+    <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
+        <script>
+          var wa_btnSetting = {"btnColor":"#16BE45","ctaText":"","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"right","whatsAppNumber":"541152599877","welcomeMessage":"Hello","zIndex":999999,"btnColorScheme":"light"};
+          window.onload = () => {
+            _waEmbed(wa_btnSetting);
+          };
+        </script>
+      
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+ 
+	 
+	 <div id="iniciar-sesion" class="modal fade">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          
+            
+			
+			<div class="modal-header">
+                                   
+                                    <h5 class="text-uppercase italic text-medium font-weight-600 trn">Iniciar Sesión </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+              <div class="row justify-content-md-center">
+
+                <div class="col-lg-4">
+                    <div class="padding-30px background-white border-1 border-grey-1">
+                        <form>
+                            <div class="form-group">
+                                <label for="inputEmail3" class="form-label"><strong class=" trn">Correo Electrónico</strong></label>
+                                <input type="email" class="form-control  apiom_email" id="" placeholder="Email">
+                            </div>
+                            <div class="form-group pt-1">
+                                <label for="inputPassword3" class="form-label"><strong class=" trn">Contraseña</strong></label>
+                                <input type="password" class="form-control rounded-0" id="apiom_password" placeholder="Contraseña">
+                            </div>
+                            
+                            <div class="form-group  pt-1">
+                                <a href="#" id="apiom_submit_login" class="btn btn-primary btn-block  trn">Ingresar</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div>
+                        <i class="fa fa-key margin-right-10px" aria-hidden="true"></i> <strong class="text-uppercase trn">¿Olvidó su contraseña?</strong>
+                        <span class="d-block text-grey-2 trn">Te enviaremos tu contraseña al mail registrado en nuestro sistema.</span>
+						<span class="d-block"><a  class=" pb-2 collapsed" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1  trn">ENVIAR EMAIL</a></span>
+							<div class="  pt-1 panel-collapse collapse" id="collapse1"  role="tabpanel" aria-labelledby="heading4" aria-expanded="false">
+						 <div class="form-group">
+                                
+                                <input type="text" class="form-control" id="inputPassword3" placeholder="Email">
+                            </div>
+							 <div class="form-group">
+                                <a href="#" class="btn btn-primary btn-block  trn">Enviar</a>
+                            </div>
+                    </div>
+					 </div>
+
+                    <div class=" pt-1">
+                        <i class="fa fa-user margin-right-10px" aria-hidden="true"></i> <strong class="text-uppercase collapsed trn" >¿Primera vez? </strong>
+                        <span class="d-block"><a data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse1" class="text-grey-2 trn">REGISTRATE</a></span>
+                    </div>
+                   
+                </div>
+				
+				 <div class="col-lg-6 col-md-6 panel-collapse collapse" id="collapse2"  role="tabpanel" aria-labelledby="heading4" aria-expanded="false">
+                     <div class="margin-top-20px padding-30px background-white border-1 border-grey-1">
+					<form>
+					<strong class="text-uppercase trn">REGISTRARSE</strong>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label   class=" trn">Nombre</label>
+                                <input type="text" class="form-control"   placeholder="Nombre">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label   class=" trn">Apellido</label>
+                                <input type="email" class="form-control"   placeholder="Apellido">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label  class=" trn">Email</label>
+                            <input type="text" class="form-control"   placeholder="Email">
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label   class=" trn">Contraseña</label>
+                                <input type="password" class="form-control"   placeholder="Contraseña">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label   class=" trn">Repetir Contraseña</label>
+                                <input type="password" class="form-control"   placeholder="Contraseña">
+                            </div>
+                        </div>
+                        <a href="#" class="btn-sm btn-lg btn-block background-main-color text-white text-center font-weight-bold text-uppercase rounded-0 padding-15px trn">Enviar</a>
+                    </form>
+					 </div>
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </div>
+	 </div>
+	 
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center border-end  px-lg-5">
+            <img src="img/logo_fw.jpg" class="img-fluid logo ">
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="#" class="nav-item nav-link trn" style="color: rgb(29, 150, 29);">Politica CO2 NEUTRO</a>
+                <a data-bs-toggle="modal" data-bs-target="#iniciar-sesion" href="#iniciar-secion" class="nav-item nav-link active trn">Mis Reservas</a>
+                <a href="#" class="nav-item nav-link trn">Web Check In</a>
+             
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle apiom_ul_monedas" data-bs-toggle="dropdown">USD</a>
+                    <div class="dropdown-menu bg-light m-0">
+                        <a href="#" class="dropdown-item convert"  data-to-currency="ARS" id="ARS">$ (ARS)</a>
+                        <a href="#" class="dropdown-item convert"  data-to-currency="USD" id="USD">US$ (USD)</a>
+                        <a href="#" class="dropdown-item convert"  data-to-currency="EUR" id="EUR">€ (EUR)</a>
+                       
+                    </div>
+                </div>
+                <div class="nav-item dropdown  has-megamenu">
+                    <a id="idiomaSelector" href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true">ES</a>
+                    <div class="dropdown-menu megamenu  bg-light m-0">
+                        <div class="row g-3">
+                            <div class="col-lg-12">
+                                <h6 class="title trn">Seleccionar Idioma</h6>
+                                </div>
+                            <div class="col-lg-3 col-6">
+                                <div class="col-megamenu">
+                                   <ul class="list-unstyled" style="margin: 0px;">
+                                        <li><a href="#" class="lang_selector" id="idiomaAF" data-value="af"
+                                            onclick="setIdioma('AF', true);$('#idiomaSelector').html(getIdiomaCompleto())"><picture>
+                                            <source
+                                              type="image/webp"
+                                              srcset="https://flagcdn.com/20x15/za.webp,
+                                                https://flagcdn.com/40x30/za.webp 2x,
+                                                https://flagcdn.com/60x45/za.webp 3x">
+                                            <source
+                                              type="image/png"
+                                              srcset="https://flagcdn.com/20x15/za.png,
+                                                https://flagcdn.com/40x30/za.png 2x,
+                                                https://flagcdn.com/60x45/za.png 3x">
+                                            <img
+                                              src="https://flagcdn.com/20x15/za.png"
+                                              width="20"
+                                              height="15"
+                                              alt="South Africa">
+                                          </picture> <span class="trn">Afrikaans</span></a></li>
+                                        <li><a href="#" class="lang_selector" id="idiomaES" data-value="es"
+                                            onclick="setIdioma('ES', true);$('#idiomaSelector').html(getIdiomaCompleto())"><picture>
+                                            <source
+                                              type="image/webp"
+                                              srcset="https://flagcdn.com/20x15/es.webp,
+                                                https://flagcdn.com/40x30/es.webp 2x,
+                                                https://flagcdn.com/60x45/es.webp 3x">
+                                            <source
+                                              type="image/png"
+                                              srcset="https://flagcdn.com/20x15/es.png,
+                                                https://flagcdn.com/40x30/es.png 2x,
+                                                https://flagcdn.com/60x45/es.png 3x">
+                                            <img
+                                              src="https://flagcdn.com/20x15/es.png"
+                                              width="20"
+                                              height="15"
+                                              alt="España">
+                                          </picture> <span class="trn">Español</span></a></li>
+                                      
+                                    </ul>
+                                </div>  <!-- col-megamenu.// -->
+                            </div><!-- end col-3 -->
+                            <div class="col-lg-3 col-6">
+                                <div class="col-megamenu">
+                                    
+                                    <ul class="list-unstyled"  style="margin: 0px;">
+                                        <li><a href="#" class="lang_selector" id="idiomaDE" data-value="de"
+                                            onclick="setIdioma('DE', true);$('#idiomaSelector').html(getIdiomaCompleto())"><picture>
+                                            <source
+                                              type="image/webp"
+                                              srcset="https://flagcdn.com/20x15/de.webp,
+                                                https://flagcdn.com/40x30/de.webp 2x,
+                                                https://flagcdn.com/60x45/de.webp 3x">
+                                            <source
+                                              type="image/png"
+                                              srcset="https://flagcdn.com/20x15/de.png,
+                                                https://flagcdn.com/40x30/de.png 2x,
+                                                https://flagcdn.com/60x45/de.png 3x">
+                                            <img
+                                              src="https://flagcdn.com/20x15/de.png"
+                                              width="20"
+                                              height="15"
+                                              alt="Alemania">
+                                          </picture> <span class="trn">Aleman</span></a></li>
+                                        <li><a href="#" class="lang_selector" id="idiomaFI" data-value="fi"
+                                            onclick="setIdioma('FI', true);$('#idiomaSelector').html(getIdiomaCompleto())"><picture>
+                                            <source
+                                              type="image/webp"
+                                              srcset="https://flagcdn.com/20x15/fi.webp,
+                                                https://flagcdn.com/40x30/fi.webp 2x,
+                                                https://flagcdn.com/60x45/fi.webp 3x">
+                                            <source
+                                              type="image/png"
+                                              srcset="https://flagcdn.com/20x15/fi.png,
+                                                https://flagcdn.com/40x30/fi.png 2x,
+                                                https://flagcdn.com/60x45/fi.png 3x">
+                                            <img
+                                              src="https://flagcdn.com/20x15/fi.png"
+                                              width="20"
+                                              height="15"
+                                              alt="Finlandia">
+                                          </picture><span class="trn">Finlandes</span></a></li>
+                                       
+                                    </ul>
+                                </div>  <!-- col-megamenu.// -->
+                            </div><!-- end col-3 -->
+                            <div class="col-lg-3 col-6">
+                                <div class="col-megamenu">
+                                   
+                                    <ul class="list-unstyled" style="margin: 0px;">
+                                        <li><a href="#" class="lang_selector" id="idiomaCH" data-value="ch"
+                                            onclick="setIdioma('CH', true);$('#idiomaSelector').html(getIdiomaCompleto())"><picture>
+                                            <source
+                                              type="image/webp"
+                                              srcset="https://flagcdn.com/20x15/ch.webp,
+                                                https://flagcdn.com/40x30/ch.webp 2x,
+                                                https://flagcdn.com/60x45/ch.webp 3x">
+                                            <source
+                                              type="image/png"
+                                              srcset="https://flagcdn.com/20x15/ch.png,
+                                                https://flagcdn.com/40x30/ch.png 2x,
+                                                https://flagcdn.com/60x45/ch.png 3x">
+                                            <img
+                                              src="https://flagcdn.com/20x15/ch.png"
+                                              width="20"
+                                              height="15"
+                                              alt="Suiza">
+                                          </picture><span class="trn">Suizo</span></a></li>
+                                        <li><a href="#" class="lang_selector" id="idiomaPT" data-value="pt"
+                                            onclick="setIdioma('PT', true);$('#idiomaSelector').html(getIdiomaCompleto())"><picture>
+                                            <source
+                                              type="image/webp"
+                                              srcset="https://flagcdn.com/20x15/pt.webp,
+                                                https://flagcdn.com/40x30/pt.webp 2x,
+                                                https://flagcdn.com/60x45/pt.webp 3x">
+                                            <source
+                                              type="image/png"
+                                              srcset="https://flagcdn.com/20x15/pt.png,
+                                                https://flagcdn.com/40x30/pt.png 2x,
+                                                https://flagcdn.com/60x45/pt.png 3x">
+                                            <img
+                                              src="https://flagcdn.com/20x15/pt.png"
+                                              width="20"
+                                              height="15"
+                                              alt="Portugal">
+                                          </picture><span class="trn">Portugues</span></a></li>
+                                      
+                                    </ul>
+                                </div>  <!-- col-megamenu.// -->
+                            </div>    
+                            <div class="col-lg-3 col-6">
+                                <div class="col-megamenu">
+                                  
+                                    <ul class="list-unstyled" style="margin: 0px;">
+                                      <li> <a href="#" class="lang_selector" id="idiomaFR" data-value="fr"
+                                        onclick="setIdioma('FR', true);$('#idiomaSelector').html(getIdiomaCompleto())"> <picture>
+                                            <source
+                                              type="image/webp"
+                                              srcset="https://flagcdn.com/20x15/fr.webp,
+                                                https://flagcdn.com/40x30/fr.webp 2x,
+                                                https://flagcdn.com/60x45/fr.webp 3x">
+                                            <source
+                                              type="image/png"
+                                              srcset="https://flagcdn.com/20x15/fr.png,
+                                                https://flagcdn.com/40x30/fr.png 2x,
+                                                https://flagcdn.com/60x45/fr.png 3x">
+                                            <img
+                                              src="https://flagcdn.com/20x15/fr.png"
+                                              width="20"
+                                              height="15"
+                                              alt="Francia">
+                                          </picture><span class="trn">Frances</span></a>
+                                         </li>
+                                        <li> <a href="#"  class="lang_selector" id="idiomaIT" data-value="it"
+                                            onclick="setIdioma('IT', true);$('#idiomaSelector').html(getIdiomaCompleto())"><picture>
+                                            <source
+                                            type="image/webp"
+                                            srcset="https://flagcdn.com/20x15/it.webp,
+                                                https://flagcdn.com/40x30/it.webp 2x,
+                                                https://flagcdn.com/60x45/it.webp 3x">
+                                            <source
+                                            type="image/png"
+                                            srcset="https://flagcdn.com/20x15/it.png,
+                                                https://flagcdn.com/40x30/it.png 2x,
+                                                https://flagcdn.com/60x45/it.png 3x">
+                                            <img
+                                            src="https://flagcdn.com/20x15/it.png"
+                                            width="20"
+                                            height="15"
+                                            alt="Italia">
+                                        </picture><span class="trn">Italiano</span></a>
+                                    </li>
+
+                                    </ul>
+                                </div>  <!-- col-megamenu.// -->
+                            </div><!-- end col-3 -->
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <a href="" class="btn btn-primary  py-2  d-lg-block"><span class="trn">Llamar</span> <i class="fa fa-phone ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+
+
+    <!-- Facts Start -->
+    <div class="container-fluid segunda-seccion pt-lg-50">
+        <div class="container  pt-lg-0">
+            <div class="card row">
+                <div class="row">
+                <div class=" col-md-6">
+                   
+                        <div class="col-md-12">
+                            <h2 class="text-primary m-4 trn">Buscador de País</h2>
+                        </div>
+
+                    </div>
+                    <div class=" col-md-6">
+                    <div class="row my-3">
+                        <div class="col-lg-8 col-md-6 mt-2">
+                            <input autocomplete="off" id="apiom_pais" type="text" class="form-control form-mobile-collapse trn_placeholder" placeholder="País">
+                        </div>
+                        <div class="col-lg-4 col-md-6 text-center mt-2">
+                            <a class="btn btn-primary btn-block trn" id="branchMapButton">Buscar</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+
+               
+        </div>
+    </div>
+    <!-- Facts End -->
+
+
+
+   <!-- Team Start -->
+   <div class="container-xxl  mb-5">
+    <div class="container">
+     
+        <div class="row g-0 team-items">
+            <div class="card">
+                
+                    <table class="table text-center  datatable-basic table-bordered table-hover  table-striped">
+						<thead>
+							<tr>
+								
+								<th class="trn p-2">País  </th>
+								<th class="trn p-2">Teléfonos</th>
+								<th class="trn p-2">Email</th>
+                                <th class="trn p-2">Más Información</th>
+									
+							</tr>
+						</thead>
+						<tbody>
+						
+							<tr>
+								
+								<td  class="text-center pt-2"><a href="#"><picture>
+                                    <source
+                                      type="image/webp"
+                                      srcset="https://flagcdn.com/60x45/mx.webp,
+                                        https://flagcdn.com/60x45/mx.webp 3x">
+                                    <source
+                                      type="image/png"
+                                      srcset="https://flagcdn.com/60x45/mx.webp,
+                                       https://flagcdn.com/60x45/mx.png 3x">
+                                    <img
+                                      src="https://flagcdn.com/60x45/mx.png"
+                                      width="40"
+                                      height="30"
+                                      alt="Mexico">
+                                  </picture></a></td>
+								<td id="accordeon" class="pt-2"><a href="tel:+52352215151">+52352215151</a><br>
+                                    <div class="collapse" id="collapse-1">
+                                    <a href="tel:+52352215151">+52352215151</a>
+                                </div>
+                                </td>
+								<td class="pt-2"><a href="mail:info@flexways.com">info@flexways.com</a></td>
+                                <td class="pt-2"><a data-bs-toggle="collapse" data-parent="#accordion" href="#collapse-1" ria-expanded="false" aria-controls="collapseExample"><h6 class="text-center"><i class="fa fa-eye text-primary trn"></i></h6></a></td>
+								
+								
+							
+								
+							</tr>
+
+                            <tr>
+								
+								<td  class="text-center pt-2"><a href="#"><picture>
+                                    <source
+                                        type="image/webp"
+                                        srcset="https://flagcdn.com/40x30/ar.webp,
+                                        https://flagcdn.com/40x30/ar.webp 2x,
+                                        https://flagcdn.com/60x45/ar.webp 3x">
+                                    <source
+                                        type="image/png"
+                                        srcset="https://flagcdn.com/40x30/ar.png,
+                                        https://flagcdn.com/40x30/ar.png 2x,
+                                        https://flagcdn.com/60x45/ar.png 3x">
+                                        <img src="https://flagcdn.com/40x30/ar.png" width="40" height="30" alt="Argentina"></picture></a></td>
+								<td id="accordeon" class="pt-2"><a href="tel:+52352215151">+52352215151</a><br>
+                                    <div class="collapse" id="collapse-2">
+                                    <a href="tel:+52352215151">+52352215151</a>
+                                </div>
+                                </td>
+								<td class="pt-2"><a href="mail:info@flexways.com">info@flexways.com</a></td>
+                                <td class="pt-2"><a data-bs-toggle="collapse" data-parent="#accordion" href="#collapse-2" ria-expanded="false" aria-controls="collapseExample"><h6 class="text-center"><i class="fa fa-eye text-primary trn"></i></h6></a></td>
+								
+								
+							
+								
+							</tr>
+                            <tr>
+								
+								<td  class="text-center pt-2"> <a href="#"><picture>
+                                    <source
+                                        type="image/webp"
+                                        srcset="https://flagcdn.com/40x30/us.webp,
+                                        https://flagcdn.com/40x30/us.webp 2x,
+                                        https://flagcdn.com/60x45/us.webp 3x">
+                                    <source
+                                        type="image/png"
+                                        srcset="https://flagcdn.com/40x30/us.png,
+                                        https://flagcdn.com/40x30/us.png 2x,
+                                        https://flagcdn.com/60x45/us.png 3x">
+                                        <img src="https://flagcdn.com/40x30/us.png" width="40" height="30" alt="Estados Unidos"></picture></a></td>
+								<td id="accordeon" class="pt-2"><a href="tel:+52352215151">+52352215151</a><br>
+                                    <div class="collapse" id="collapse-3">
+                                        <a href="tel:+52352215151">+52352215151</a><br>
+                                    <a href="tel:+52352215151">+52352215151</a>
+                                </div>
+                                </td>
+								<td class="pt-2"><a href="mail:info@flexways.com">info@flexways.com</a></td>
+                                <td class="pt-2"><a data-bs-toggle="collapse" data-parent="#accordion" href="#collapse-3" ria-expanded="false" aria-controls="collapseExample"><h6 class="text-center"><i class="fa fa-eye text-primary trn"></i></h6></a></td>
+								
+								
+							
+								
+							</tr>
+                            <tr>
+								
+								<td  class="text-center pt-2">  <a href="#"><picture>
+                                    <source
+                                        type="image/webp"
+                                        srcset="https://flagcdn.com/40x30/ec.webp,
+                                        https://flagcdn.com/40x30/ec.webp 2x,
+                                        https://flagcdn.com/60x45/ec.webp 3x">
+                                    <source
+                                        type="image/png"
+                                        srcset="https://flagcdn.com/40x30/ec.png,
+                                        https://flagcdn.com/40x30/ec.png 2x,
+                                        https://flagcdn.com/60x45/ec.png 3x">
+                                        <img src="https://flagcdn.com/40x30/ec.png" width="40" height="30" alt="Ecuador"></picture></a>     </td>
+								<td id="accordeon" class="pt-2"><a href="tel:+52352215151">+52352215151</a><br>
+                                    <div class="collapse" id="collapse-4">
+                                    <a href="tel:+52352215151">+52352215151</a>
+                                </div>
+                                </td>
+								<td class="pt-2"><a href="mail:info@flexways.com">info@flexways.com</a></td>
+                                <td class="pt-2"><!-- <a data-bs-toggle="collapse" data-parent="#accordion" href="#collapse-4" ria-expanded="false" aria-controls="collapseExample"><h6 class="text-center"><i class="fa fa-eye text-primary trn"></i></h6></a> --></td>
+								
+								
+							
+								
+							</tr>
+                            <tr>
+								
+								<td  class="text-center pt-2"> <a href="#"><picture>
+                                    <source
+                                        type="image/webp"
+                                        srcset="https://flagcdn.com/40x30/do.webp,
+                                        https://flagcdn.com/40x30/do.webp 2x,
+                                        https://flagcdn.com/60x45/do.webp 3x">
+                                    <source
+                                        type="image/png"
+                                        srcset="https://flagcdn.com/40x30/do.png,
+                                        https://flagcdn.com/40x30/do.png 2x,
+                                        https://flagcdn.com/60x45/do.png 3x">
+                                        <img src="https://flagcdn.com/40x30/do.png" width="40" height="30" alt="Republica Dominicana"></picture></a> </td>
+								<td id="accordeon" class="pt-2"><a href="tel:+52352215151">+52352215151</a><br>
+                                    <div class="collapse" id="collapse-5">
+                                    <a href="tel:+52352215151">+52352215151</a>
+                                </div>
+                                </td>
+								<td class="pt-2"><a href="mail:info@flexways.com">info@flexways.com</a>
+                                    <div class="collapse" id="collapse-5">
+                                        <a href="mail:info@flexways.com">info@flexways.com</a>
+                                    </div>
+                                </td>
+                                <td class="pt-2"><a data-bs-toggle="collapse" data-parent="#accordion" href="#collapse-5" ria-expanded="false" aria-controls="collapseExample"><h6 class="text-center"><i class="fa fa-eye text-primary trn"></i></h6></a></td>
+								
+								
+							
+								
+							</tr>
+                            <tr>
+								
+								<td  class="text-center pt-2">   <a href="#"><picture>
+                                    <source
+                                        type="image/webp"
+                                        srcset="https://flagcdn.com/40x30/cr.webp,
+                                        https://flagcdn.com/40x30/cr.webp 2x,
+                                        https://flagcdn.com/60x45/cr.webp 3x">
+                                    <source
+                                        type="image/png"
+                                        srcset="https://flagcdn.com/40x30/cr.png,
+                                        https://flagcdn.com/40x30/cr.png 2x,
+                                        https://flagcdn.com/60x45/cr.png 3x">
+                                        <img src="https://flagcdn.com/40x30/cr.png" width="40" height="30" alt="Costa Rica"></picture></a>   </td>
+								<td id="accordeon" class="pt-2"><a href="tel:+52352215151">+52352215151</a><br>
+                                    <div class="collapse" id="collapse-6">
+                                    <a href="tel:+52352215151">+52352215151</a>
+                                </div>
+                                </td>
+								<td class="pt-2"><a href="mail:info@flexways.com">info@flexways.com</a></td>
+                                <td class="pt-2"><a data-bs-toggle="collapse" data-parent="#accordion" href="#collapse-6" ria-expanded="false" aria-controls="collapseExample"><h6 class="text-center"><i class="fa fa-eye text-primary trn"></i></h6></a></td>
+								
+								
+							
+								
+							</tr>
+                            <tr>
+								
+								<td  class="text-center pt-2"> <a href="#"><picture>
+                                    <source
+                                        type="image/webp"
+                                        srcset="https://flagcdn.com/40x30/cl.webp,
+                                        https://flagcdn.com/40x30/cl.webp 2x,
+                                        https://flagcdn.com/60x45/cl.webp 3x">
+                                    <source
+                                        type="image/png"
+                                        srcset="https://flagcdn.com/40x30/cl.png,
+                                        https://flagcdn.com/40x30/cl.png 2x,
+                                        https://flagcdn.com/60x45/cl.png 3x">
+                                        <img src="https://flagcdn.com/40x30/cl.png" width="40" height="30" alt="Chile"></picture></a> </td>
+								<td id="accordeon" class="pt-2"><a href="tel:+52352215151">+52352215151</a><br>
+                                    <div class="collapse" id="collapse-7">
+                                    <a href="tel:+52352215151">+52352215151</a>
+                                </div>
+                                </td>
+								<td class="pt-2"><a href="mail:info@flexways.com">info@flexways.com</a></td>
+                                <td class="pt-2"><a data-bs-toggle="collapse" data-parent="#accordion" href="#collapse-7" ria-expanded="false" aria-controls="collapseExample"><h6 class="text-center"><i class="fa fa-eye text-primary trn"></i></h6></a></td>
+								
+								
+							
+								
+							</tr>
+                            <tr>
+								
+								<td  class="text-center pt-2"><a href="#"><picture>
+                                    <source
+                                        type="image/webp"
+                                        srcset="https://flagcdn.com/40x30/gr.webp,
+                                        https://flagcdn.com/40x30/gr.webp 2x,
+                                        https://flagcdn.com/60x45/gr.webp 3x">
+                                    <source
+                                        type="image/png"
+                                        srcset="https://flagcdn.com/40x30/gr.png,
+                                        https://flagcdn.com/40x30/gr.png 2x,
+                                        https://flagcdn.com/60x45/gr.png 3x">
+                                        <img src="https://flagcdn.com/40x30/gr.png" width="40" height="30" alt="Grecia"></picture></a></td>
+								<td id="accordeon" class="pt-2"><a href="tel:+52352215151">+52352215151</a><br>
+                                    <div class="collapse" id="collapse-8">
+                                    <a href="tel:+52352215151">+52352215151</a>
+                                </div>
+                                </td>
+								<td class="pt-2"><a href="mail:info@flexways.com">info@flexways.com</a></td>
+                                <td class="pt-2"><a data-bs-toggle="collapse" data-parent="#accordion" href="#collapse-8" ria-expanded="false" aria-controls="collapseExample"><h6 class="text-center"><i class="fa fa-eye text-primary trn"></i></h6></a></td>
+								
+								
+							
+								
+							</tr>
+                            <tr>
+								
+								<td  class="text-center pt-2">  <a href="#"><picture>
+                                    <source
+                                        type="image/webp"
+                                        srcset="https://flagcdn.com/40x30/pe.webp,
+                                        https://flagcdn.com/40x30/pe.webp 2x,
+                                        https://flagcdn.com/60x45/pe.webp 3x">
+                                    <source
+                                        type="image/png"
+                                        srcset="https://flagcdn.com/40x30/pe.png,
+                                        https://flagcdn.com/40x30/pe.png 2x,
+                                        https://flagcdn.com/60x45/pe.png 3x">
+                                        <img src="https://flagcdn.com/40x30/pe.png" width="40" height="30" alt="Peru"></picture></a> </td>
+								<td id="accordeon" class="pt-2"><a href="tel:+52352215151">+52352215151</a><br>
+                                    <div class="collapse" id="collapse-9">
+                                    <a href="tel:+52352215151">+52352215151</a>
+                                </div>
+                                </td>
+								<td class="pt-2"><a href="mail:info@flexways.com">info@flexways.com</a></td>
+                                <td class="pt-2"><a data-bs-toggle="collapse" data-parent="#accordion" href="#collapse-9" ria-expanded="false" aria-controls="collapseExample"><h6 class="text-center"><i class="fa fa-eye text-primary trn"></i></h6></a></td>
+								
+								
+							
+								
+							</tr>
+                            <tr>
+								
+								<td  class="text-center pt-2"><a href="#"><picture>
+                                    <source
+                                        type="image/webp"
+                                        srcset="https://flagcdn.com/40x30/ag.webp,
+                                        https://flagcdn.com/40x30/ag.webp 2x,
+                                        https://flagcdn.com/60x45/ag.webp 3x">
+                                    <source
+                                        type="image/png"
+                                        srcset="https://flagcdn.com/40x30/ag.png,
+                                        https://flagcdn.com/40x30/ag.png 2x,
+                                        https://flagcdn.com/60x45/ag.png 3x">
+                                        <img src="https://flagcdn.com/40x30/ag.png" width="40" height="30" alt="Antigua y Barbuda"></picture></a> </td>
+								<td id="accordeon" class="pt-2"><a href="tel:+52352215151">+52352215151</a><br>
+                                    <div class="collapse" id="collapse-10">
+                                    <a href="tel:+52352215151">+52352215151</a>
+                                </div>
+                                </td>
+								<td class="pt-2"><a href="mail:info@flexways.com">info@flexways.com</a></td>
+                                <td class="pt-2"><a data-bs-toggle="collapse" data-parent="#accordion" href="#collapse-10" ria-expanded="false" aria-controls="collapseExample"><h6 class="text-center"><i class="fa fa-eye text-primary trn"></i></h6></a></td>
+								
+								
+							
+								
+							</tr>
+                            <tr>
+								
+								<td  class="text-center pt-2"><a href="#"><picture>
+                                    <source
+                                      type="image/webp"
+                                      srcset="https://flagcdn.com/60x45/mx.webp,
+                                        https://flagcdn.com/60x45/mx.webp 3x">
+                                    <source
+                                      type="image/png"
+                                      srcset="https://flagcdn.com/60x45/mx.webp,
+                                       https://flagcdn.com/60x45/mx.png 3x">
+                                    <img
+                                      src="https://flagcdn.com/60x45/mx.png"
+                                      width="40"
+                                      height="30"
+                                      alt="Mexico">
+                                  </picture></a></td>
+								<td id="accordeon" class="pt-2"><a href="tel:+52352215151">+52352215151</a><br>
+                                    <div class="collapse" id="collapse-11">
+                                    <a href="tel:+52352215151">+52352215151</a>
+                                </div>
+                                </td>
+								<td class="pt-2"><a href="mail:info@flexways.com">info@flexways.com</a></td>
+                                <td class="pt-2"><a data-bs-toggle="collapse" data-parent="#accordion" href="#collapse-11" ria-expanded="false" aria-controls="collapseExample"><h6 class="text-center"><i class="fa fa-eye text-primary trn"></i></h6></a></td>
+								
+								
+							
+								
+							</tr>
+                            <tr>
+								
+								<td  class="text-center pt-2"> <a href="#"><picture>
+                                    <source
+                                        type="image/webp"
+                                        srcset="https://flagcdn.com/40x30/au.webp,
+                                        https://flagcdn.com/40x30/au.webp 2x,
+                                        https://flagcdn.com/60x45/au.webp 3x">
+                                    <source
+                                        type="image/png"
+                                        srcset="https://flagcdn.com/40x30/au.png,
+                                        https://flagcdn.com/40x30/au.png 2x,
+                                        https://flagcdn.com/60x45/au.png 3x">
+                                        <img src="https://flagcdn.com/40x30/au.png" width="40" height="30" alt="Australia"></picture></a></td>
+								<td id="accordeon" class="pt-2"><a href="tel:+52352215151">+52352215151</a><br>
+                                    <div class="collapse" id="collapse-12">
+                                    <a href="tel:+52352215151">+52352215151</a>
+                                </div>
+                                </td>
+								<td class="pt-2"><a href="mail:info@flexways.com">info@flexways.com</a></td>
+                                <td class="pt-2"><a data-bs-toggle="collapse" data-parent="#accordion" href="#collapse-12" ria-expanded="false" aria-controls="collapseExample"><h6 class="text-center"><i class="fa fa-eye text-primary trn"></i></h6></a></td>
+								
+								
+							
+								
+							</tr>
+                            <tr>
+								
+								<td  class="text-center pt-2"> <a href="#"><picture>
+                                    <source type="image/webp"
+                                       srcset="https://flagcdn.com/40x30/az.webp,
+                                       https://flagcdn.com/40x30/az.webp 2x,
+                                       https://flagcdn.com/60x45/az.webp 3x">
+                                   <source type="image/png"
+                                      srcset="https://flagcdn.com/40x30/az.png,
+                                      https://flagcdn.com/40x30/az.png 2x,
+                                      https://flagcdn.com/60x45/az.png 3x">
+                                      <img src="https://flagcdn.com/40x30/az.png" width="40" height="30" alt="Azerbaijan"></picture></a> </td>
+								<td id="accordeon" class="pt-2"><a href="tel:+52352215151">+52352215151</a><br>
+                                    <div class="collapse" id="collapse-13">
+                                    <a href="tel:+52352215151">+52352215151</a>
+                                </div>
+                                </td>
+								<td class="pt-2"><a href="mail:info@flexways.com">info@flexways.com</a></td>
+                                <td class="pt-2"><a data-bs-toggle="collapse" data-parent="#accordion" href="#collapse-13" ria-expanded="false" aria-controls="collapseExample"><h6 class="text-center"><i class="fa fa-eye text-primary trn"></i></h6></a></td>
+								
+								
+							
+								
+							</tr>
+                            <tr>
+								
+								<td  class="text-center pt-2"><a href="#"><picture>
+                                    <source type="image/webp"
+                                       srcset="https://flagcdn.com/40x30/bs.webp,
+                                       https://flagcdn.com/40x30/bs.webp 2x,
+                                       https://flagcdn.com/60x45/bs.webp 3x">
+                                   <source type="image/png"
+                                      srcset="https://flagcdn.com/40x30/bs.png,
+                                      https://flagcdn.com/40x30/bs.png 2x,
+                                      https://flagcdn.com/60x45/bs.png 3x">
+                                      <img src="https://flagcdn.com/40x30/bs.png" width="40" height="30" alt="Bahamas"></picture></a></td>
+								<td id="accordeon" class="pt-2"><a href="tel:+52352215151">+52352215151</a><br>
+                                    <div class="collapse" id="collapse-14">
+                                    <a href="tel:+52352215151">+52352215151</a>
+                                </div>
+                                </td>
+								<td class="pt-2"><a href="mail:info@flexways.com">info@flexways.com</a></td>
+                                <td class="pt-2"><a data-bs-toggle="collapse" data-parent="#accordion" href="#collapse-14" ria-expanded="false" aria-controls="collapseExample"><h6 class="text-center"><i class="fa fa-eye text-primary trn"></i></h6></a></td>
+								
+								
+							
+								
+							</tr>
+                            <tr>
+								
+								<td  class="text-center pt-2"> <a href="#"><picture>
+                                    <source type="image/webp"
+                                       srcset="https://flagcdn.com/40x30/br.webp,
+                                       https://flagcdn.com/40x30/br.webp 2x,
+                                       https://flagcdn.com/60x45/br.webp 3x">
+                                   <source type="image/png"
+                                      srcset="https://flagcdn.com/40x30/br.png,
+                                      https://flagcdn.com/40x30/br.png 2x,
+                                      https://flagcdn.com/60x45/br.png 3x">
+                                      <img src="https://flagcdn.com/40x30/br.png" width="40" height="30" alt="Brasil"></picture></a>  </td>
+								<td id="accordeon" class="pt-2"><a href="tel:+52352215151">+52352215151</a><br>
+                                    <div class="collapse" id="collapse-15">
+                                    <a href="tel:+52352215151">+52352215151</a>
+                                </div>
+                                </td>
+								<td class="pt-2"><a href="mail:info@flexways.com">info@flexways.com</a></td>
+                                <td class="pt-2"><a data-bs-toggle="collapse" data-parent="#accordion" href="#collapse-15" ria-expanded="false" aria-controls="collapseExample"><h6 class="text-center"><i class="fa fa-eye text-primary trn"></i></h6></a></td>
+								
+								
+							
+								
+							</tr>
+                            <tr>
+								
+								<td  class="text-center pt-2"> <a href="#"><picture>
+                                    <source type="image/webp"
+                                       srcset="https://flagcdn.com/40x30/ca.webp,
+                                       https://flagcdn.com/40x30/ca.webp 2x,
+                                       https://flagcdn.com/60x45/ca.webp 3x">
+                                   <source type="image/png"
+                                      srcset="https://flagcdn.com/40x30/ca.png,
+                                      https://flagcdn.com/40x30/ca.png 2x,
+                                      https://flagcdn.com/60x45/ca.png 3x">
+                                      <img src="https://flagcdn.com/40x30/ca.png" width="40" height="30" alt="Canada"></picture></a>  </td>
+								<td id="accordeon" class="pt-2"><a href="tel:+52352215151">+52352215151</a><br>
+                                    <div class="collapse" id="collapse-16">
+                                    <a href="tel:+52352215151">+52352215151</a>
+                                </div>
+                                </td>
+								<td class="pt-2"><a href="mail:info@flexways.com">info@flexways.com</a></td>
+                                <td class="pt-2"><a data-bs-toggle="collapse" data-parent="#accordion" href="#collapse-16" ria-expanded="false" aria-controls="collapseExample"><h6 class="text-center"><i class="fa fa-eye text-primary trn"></i></h6></a></td>
+								
+								
+							
+								
+							</tr>
+                            <tr>
+								
+								<td  class="text-center pt-2">  <a href="#"><picture>
+                                    <source
+                                      type="image/webp"
+                                      srcset="https://flagcdn.com/40x30/co.webp,
+                                        https://flagcdn.com/40x30/co.webp 2x,
+                                        https://flagcdn.com/60x45/co.webp 3x">
+                                    <source
+                                      type="image/png"
+                                      srcset="https://flagcdn.com/40x30/co.png,
+                                        https://flagcdn.com/40x30/co.png 2x,
+                                        https://flagcdn.com/60x45/co.png 3x">
+                                    <img
+                                      src="https://flagcdn.com/40x30/co.png"
+                                      width="40"
+                                      height="30"
+                                      alt="Colombia">
+                                  </picture></a></td>
+								<td id="accordeon" class="pt-2"><a href="tel:+52352215151">+52352215151</a><br>
+                                    <div class="collapse" id="collapse-17">
+                                    <a href="tel:+52352215151">+52352215151</a>
+                                </div>
+                                </td>
+								<td class="pt-2"><a href="mail:info@flexways.com">info@flexways.com</a></td>
+                                <td class="pt-2"><a data-bs-toggle="collapse" data-parent="#accordion" href="#collapse-17" ria-expanded="false" aria-controls="collapseExample"><h6 class="text-center"><i class="fa fa-eye text-primary trn"></i></h6></a></td>
+								
+								
+							
+								
+							</tr>
+                            <tr>
+								
+								<td  class="text-center pt-2"><a href="#"><picture>
+                                    <source
+                                        type="image/webp"
+                                        srcset="https://flagcdn.com/40x30/sv.webp,
+                                        https://flagcdn.com/40x30/sv.webp 2x,
+                                        https://flagcdn.com/60x45/sv.webp 3x">
+                                    <source
+                                        type="image/png"
+                                        srcset="https://flagcdn.com/40x30/sv.png,
+                                        https://flagcdn.com/40x30/sv.png 2x,
+                                        https://flagcdn.com/60x45/sv.png 3x">
+                                        <img src="https://flagcdn.com/40x30/sv.png" width="40" height="30" alt="El Salvador"></picture></a></td>
+								<td id="accordeon" class="pt-2"><a href="tel:+52352215151">+52352215151</a><br>
+                                    <div class="collapse" id="collapse-18">
+                                    <a href="tel:+52352215151">+52352215151</a>
+                                </div>
+                                </td>
+								<td class="pt-2"><a href="mail:info@flexways.com">info@flexways.com</a></td>
+                                <td class="pt-2"><a data-bs-toggle="collapse" data-parent="#accordion" href="#collapse-18" ria-expanded="false" aria-controls="collapseExample"><h6 class="text-center"><i class="fa fa-eye text-primary trn"></i></h6></a></td>
+								
+								
+							
+								
+							</tr>
+                            <tr>
+								
+								<td  class="text-center pt-2"><a href="#"><picture>
+                                    <source
+                                        type="image/webp"
+                                        srcset="https://flagcdn.com/40x30/es.webp,
+                                        https://flagcdn.com/40x30/es.webp 2x,
+                                        https://flagcdn.com/60x45/es.webp 3x">
+                                    <source
+                                        type="image/png"
+                                        srcset="https://flagcdn.com/40x30/es.png,
+                                        https://flagcdn.com/40x30/es.png 2x,
+                                        https://flagcdn.com/60x45/es.png 3x">
+                                        <img src="https://flagcdn.com/40x30/es.png" width="40" height="30" alt="España"></picture></a></td>
+								<td id="accordeon" class="pt-2"><a href="tel:+52352215151">+52352215151</a><br>
+                                    <div class="collapse" id="collapse-19">
+                                    <a href="tel:+52352215151">+52352215151</a>
+                                </div>
+                                </td>
+								<td class="pt-2"><a href="mail:info@flexways.com">info@flexways.com</a></td>
+                                <td class="pt-2"><a data-bs-toggle="collapse" data-parent="#accordion" href="#collapse-19" ria-expanded="false" aria-controls="collapseExample"><h6 class="text-center"><i class="fa fa-eye text-primary trn"></i></h6></a></td>
+								
+								
+							
+								
+							</tr>
+                            <tr>
+								
+								<td  class="text-center pt-2"><a href="#"><picture>
+                                    <source
+                                        type="image/webp"
+                                        srcset="https://flagcdn.com/40x30/gt.webp,
+                                        https://flagcdn.com/40x30/gt.webp 2x,
+                                        https://flagcdn.com/60x45/gt.webp 3x">
+                                    <source
+                                        type="image/png"
+                                        srcset="https://flagcdn.com/40x30/gt.png,
+                                        https://flagcdn.com/40x30/gt.png 2x,
+                                        https://flagcdn.com/60x45/gt.png 3x">
+                                        <img src="https://flagcdn.com/40x30/gt.png" width="40" height="30" alt="Guatemala"></picture></a> </td>
+								<td id="accordeon" class="pt-2"><a href="tel:+52352215151">+52352215151</a><br>
+                                    <div class="collapse" id="collapse-20">
+                                    <a href="tel:+52352215151">+52352215151</a>
+                                </div>
+                                </td>
+								<td class="pt-2"><a href="mail:info@flexways.com">info@flexways.com</a></td>
+                                <td class="pt-2"><a data-bs-toggle="collapse" data-parent="#accordion" href="#collapse-20" ria-expanded="false" aria-controls="collapseExample"><h6 class="text-center"><i class="fa fa-eye text-primary trn"></i></h6></a></td>
+								
+								
+							
+								
+							</tr>
+                            <tr>
+								
+								<td  class="text-center pt-2"> <a href="#"><picture>
+                                    <source
+                                        type="image/webp"
+                                        srcset="https://flagcdn.com/40x30/is.webp,
+                                        https://flagcdn.com/40x30/is.webp 2x,
+                                        https://flagcdn.com/60x45/is.webp 3x">
+                                    <source
+                                        type="image/png"
+                                        srcset="https://flagcdn.com/40x30/is.png,
+                                        https://flagcdn.com/40x30/is.png 2x,
+                                        https://flagcdn.com/60x45/is.png 3x">
+                                        <img src="https://flagcdn.com/40x30/is.png" width="40" height="30" alt="Islandia"></picture></a></td>
+								<td id="accordeon" class="pt-2"><a href="tel:+52352215151">+52352215151</a><br>
+                                    <div class="collapse" id="collapse-21">
+                                    <a href="tel:+52352215151">+52352215151</a>
+                                </div>
+                                </td>
+								<td class="pt-2"><a href="mail:info@flexways.com">info@flexways.com</a></td>
+                                <td class="pt-2"><a data-bs-toggle="collapse" data-parent="#accordion" href="#collapse-21" ria-expanded="false" aria-controls="collapseExample"><h6 class="text-center"><i class="fa fa-eye text-primary trn"></i></h6></a></td>
+								
+								
+							
+								
+							</tr>
+
+                            <tr>
+								
+								<td  class="text-center pt-2"> <a href="#"><picture>
+                                    <source
+                                        type="image/webp"
+                                        srcset="https://flagcdn.com/40x30/jm.webp,
+                                        https://flagcdn.com/40x30/jm.webp 2x,
+                                        https://flagcdn.com/60x45/jm.webp 3x">
+                                    <source
+                                        type="image/png"
+                                        srcset="https://flagcdn.com/40x30/jm.png,
+                                        https://flagcdn.com/40x30/jm.png 2x,
+                                        https://flagcdn.com/60x45/jm.png 3x">
+                                        <img src="https://flagcdn.com/40x30/jm.png" width="40" height="30" alt="Jamaica"></picture></a> </td>
+								<td id="accordeon" class="pt-2"><a href="tel:+52352215151">+52352215151</a><br>
+                                    <div class="collapse" id="collapse-22">
+                                    <a href="tel:+52352215151">+52352215151</a>
+                                </div>
+                                </td>
+								<td class="pt-2"><a href="mail:info@flexways.com">info@flexways.com</a></td>
+                                <td class="pt-2"><a data-bs-toggle="collapse" data-parent="#accordion" href="#collapse-22" ria-expanded="false" aria-controls="collapseExample"><h6 class="text-center"><i class="fa fa-eye text-primary trn"></i></h6></a></td>
+								
+								
+							
+								
+							</tr>
+                            <tr>
+								
+								<td  class="text-center pt-2"> <a href="#"><picture>
+                                    <source
+                                        type="image/webp"
+                                        srcset="https://flagcdn.com/40x30/nz.webp,
+                                        https://flagcdn.com/40x30/nz.webp 2x,
+                                        https://flagcdn.com/60x45/nz.webp 3x">
+                                    <source
+                                        type="image/png"
+                                        srcset="https://flagcdn.com/40x30/nz.png,
+                                        https://flagcdn.com/40x30/nz.png 2x,
+                                        https://flagcdn.com/60x45/nz.png 3x">
+                                        <img src="https://flagcdn.com/40x30/nz.png" width="40" height="30" alt="Nueva Zelanda"></picture></a>  </td>
+								<td id="accordeon" class="pt-2"><a href="tel:+52352215151">+52352215151</a><br>
+                                    <div class="collapse" id="collapse-23">
+                                    <a href="tel:+52352215151">+52352215151</a>
+                                </div>
+                                </td>
+								<td class="pt-2"><a href="mail:info@flexways.com">info@flexways.com</a></td>
+                                <td class="pt-2"><a data-bs-toggle="collapse" data-parent="#accordion" href="#collapse-23" ria-expanded="false" aria-controls="collapseExample"><h6 class="text-center"><i class="fa fa-eye text-primary trn"></i></h6></a></td>
+								
+								
+							
+								
+							</tr>
+                            <tr>
+								
+								<td  class="text-center pt-2"> <a href="#"><picture>
+                                    <source
+                                        type="image/webp"
+                                        srcset="https://flagcdn.com/40x30/pa.webp,
+                                        https://flagcdn.com/40x30/pa.webp 2x,
+                                        https://flagcdn.com/60x45/pa.webp 3x">
+                                    <source
+                                        type="image/png"
+                                        srcset="https://flagcdn.com/40x30/pa.png,
+                                        https://flagcdn.com/40x30/pa.png 2x,
+                                        https://flagcdn.com/60x45/pa.png 3x">
+                                        <img src="https://flagcdn.com/40x30/pa.png" width="40" height="30" alt="Panama"></picture></a>  </td>
+								<td id="accordeon" class="pt-2"><a href="tel:+52352215151">+52352215151</a><br>
+                                    <div class="collapse" id="collapse-24">
+                                    <a href="tel:+52352215151">+52352215151</a>
+                                </div>
+                                </td>
+								<td class="pt-2"><a href="mail:info@flexways.com">info@flexways.com</a></td>
+                                <td class="pt-2"><a data-bs-toggle="collapse" data-parent="#accordion" href="#collapse-24" ria-expanded="false" aria-controls="collapseExample"><h6 class="text-center"><i class="fa fa-eye text-primary trn"></i></h6></a></td>
+								
+								
+							
+								
+							</tr>
+
+                            <tr>
+								
+								<td  class="text-center pt-2"> <a href="#"><picture>
+                                    <source
+                                        type="image/webp"
+                                        srcset="https://flagcdn.com/40x30/ro.webp,
+                                        https://flagcdn.com/40x30/ro.webp 2x,
+                                        https://flagcdn.com/60x45/ro.webp 3x">
+                                    <source
+                                        type="image/png"
+                                        srcset="https://flagcdn.com/40x30/ro.png,
+                                        https://flagcdn.com/40x30/ro.png 2x,
+                                        https://flagcdn.com/60x45/ro.png 3x">
+                                        <img src="https://flagcdn.com/40x30/ro.png" width="40" height="30" alt="Rumania"></picture></a>  </td>
+								<td id="accordeon" class="pt-2"><a href="tel:+52352215151">+52352215151</a><br>
+                                    <div class="collapse" id="collapse-25">
+                                    <a href="tel:+52352215151">+52352215151</a>
+                                </div>
+                                </td>
+								<td class="pt-2"><a href="mail:info@flexways.com">info@flexways.com</a></td>
+                                <td class="pt-2"><a data-bs-toggle="collapse" data-parent="#accordion" href="#collapse-25" ria-expanded="false" aria-controls="collapseExample"><h6 class="text-center"><i class="fa fa-eye text-primary trn"></i></h6></a></td>
+								
+								
+							
+								
+							</tr>
+
+                            <tr>
+								
+								<td  class="text-center pt-2">  <a href="#"><picture>
+                                    <source
+                                        type="image/webp"
+                                        srcset="https://flagcdn.com/40x30/uy.webp,
+                                        https://flagcdn.com/40x30/uy.webp 2x,
+                                        https://flagcdn.com/60x45/uy.webp 3x">
+                                    <source
+                                        type="image/png"
+                                        srcset="https://flagcdn.com/40x30/uy.png,
+                                        https://flagcdn.com/40x30/uy.png 2x,
+                                        https://flagcdn.com/60x45/uy.png 3x">
+                                        <img src="https://flagcdn.com/40x30/uy.png" width="40" height="30" alt="Uruguay"></picture></a> </td>
+								<td id="accordeon" class="pt-2"><a href="tel:+52352215151">+52352215151</a><br>
+                                    <div class="collapse" id="collapse-26">
+                                    <a href="tel:+52352215151">+52352215151</a>
+                                </div>
+                                </td>
+								<td class="pt-2"><a href="mail:info@flexways.com">info@flexways.com</a></td>
+                                <td class="pt-2"><a data-bs-toggle="collapse" data-parent="#accordion" href="#collapse-26" ria-expanded="false" aria-controls="collapseExample"><h6 class="text-center"><i class="fa fa-eye text-primary trn"></i></h6></a></td>
+								
+								
+							
+								
+							</tr>
+							
+							
+						</tbody>	
+						
+					</table>               
+            </div>
+           
+         
+        </div>
+    </div>
+</div>
+<!-- Team End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer my-3 mb-0 py-3 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-2 col-4">
+                    <h4 class="text-white  mb-3 h4-footer desktop trn">Contacto</h4>
+                    <div class="d-flex pt-1">
+                    <a class="btn btn-square btn-outline-light me-1" href="tel:5411111111"><i class="fa fa-phone"></i> </a>
+                    <a class="btn btn-square btn-outline-light me-1" href="mailto:info@flexways.com"><i class="fa fa-envelope"></i> </a>
+                   </div>
+                </div>
+                <div class="col-lg-3 col-8">
+                    <h4 class="text-light mb-2 h4-footer trn">Mapa de Sitio</h4>
+                    <a class="btn btn-link h4-footer trn" href="">Términos & Condiciones</a>
+                    <a class="btn btn-link h4-footer trn" href="">Sucursales</a>
+                    <a class="btn btn-link h4-footer trn" href="">Contáctenos</a>
+                    
+                </div>
+                <div class="col-lg-4 col-4">
+                    <p>&nbsp;</p>
+                   <img src="img/ssl-2.png" class="img-fluid">
+                </div>
+                <div class="col-lg-3 col-6">
+                   
+                    <h4 class="text-white  mb-3 h4-footer trn">Seguinos</h4>
+                    <div class="d-flex pt-1">
+                     
+                        <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-outline-light me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright text-light py-3 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a href="#">Flexways</a>, <span  class="trn">los derechos reservados.</span> 
+                </div>
+                <div class="col-md-6 text-center  text-md-end mb-3 mb-md-0">
+                    <p class="text-light ">Powered by  <img src="img/logo-onemobility.png" width="100px"></p>
+                   
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+ -->
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    
+    <script src="js/jquery-timepicker-1.3.5/jquery.timepicker.min.js"></script>
+    
+    <script type="text/javascript">
+        $(function() {
+        
+          $('input[name="datefilter"]').daterangepicker({
+              autoUpdateInput: false,
+              locale: {
+                  cancelLabel: 'Clear'
+              }
+          });
+        
+          $('input[name="datefilter"]').on('apply.daterangepicker', function(ev, picker) {
+              $(this).val(picker.startDate.format('MM/DD/YYYY') + ' - ' + picker.endDate.format('MM/DD/YYYY'));
+          });
+        
+          $('input[name="datefilter"]').on('cancel.daterangepicker', function(ev, picker) {
+              $(this).val('');
+          });
+        
+        });
+        </script>
+    
+    <script>
+        var inputEle = document.getElementById('.timeInput');
+    
+    
+    function onTimeChange() {
+      var timeSplit = inputEle.value.split(':'),
+        hours,
+        minutes,
+        meridian;
+      hours = timeSplit[0];
+      minutes = timeSplit[1];
+      if (hours > 12) {
+        meridian = 'PM';
+        hours -= 12;
+      } else if (hours < 12) {
+        meridian = 'AM';
+        if (hours == 0) {
+          hours = 12;
+        }
+      } else {
+        meridian = 'PM';
+      }
+      alert(hours + ':' + minutes + ' ' + meridian);
+    }
+        </script>
+   
+
+
+
+
+  <script>
+      // if viewportWidth width <= 991
+      if(window.innerWidth <= 991){
+        // load mobile script
+        loadScriptFile('https://www.vixoz.com/externo/clientes/217flexways2022/js/sticky-form-mobile.js');
+      }
+      else{ // viewportWidth width > 991
+        // load desktop script
+        loadScriptFile('https://www.vixoz.com/externo/clientes/217flexways2022/js/sticky-form.js');
+      }
+      
+      // loadScriptFile func
+      function loadScriptFile(src){
+        // create element <script>
+        const $script = $('<script>');
+        // add type attribute
+        $script.attr('type', 'text/javascript');
+        // add src attribute
+        $script.attr('src', src);
+        // append the <script> element to <head>
+        $script.appendTo('body');
+      }
+      </script>
+
+
+
+<script>
+
+window.onresize = function() {
+    if (window.innerHeight <= 767) { /* Reorder divs for mobile cases */ }        
+    if (window.innerWidth > 767) {  /* Reorder divs for desktop cases */ }
+}
+
+
+
+</script>
+
+</body>
+
+</html>

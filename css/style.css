@@ -542,6 +542,14 @@ html:not([data-scroll='0']) {
     padding: 2em !important;
   }
 
+
+  .d-md-block{
+
+    display: none;
+}
+
+
+
   @media (max-width: 768px) {
     .mobile {
         display: block;
@@ -715,6 +723,16 @@ html:not([data-scroll='0']) {
 .counter-box.colored,
 .counter-box.colored .counter {
 	color: #333
+}
+
+.d-sm-none{
+
+    display: none;
+}
+
+.d-sm-block{
+
+    display: block;
 }
 
 }

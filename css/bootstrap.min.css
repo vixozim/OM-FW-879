@@ -5521,9 +5521,9 @@ textarea.form-control-lg{
 .border-top-0{
     border-top:0 !important
 }
-.border-end{
+/* .border-end{
     border-right:1px solid #dee2e6 !important
-}
+} */
 .border-end-0{
     border-right:0 !important
 }

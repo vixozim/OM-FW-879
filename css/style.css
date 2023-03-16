@@ -735,4 +735,9 @@ html:not([data-scroll='0']) {
     display: block;
 }
 
+.py-sm-1{
+    padding-top:1.25rem !important;
+    padding-bottom:1.25rem !important
+}
+
 }

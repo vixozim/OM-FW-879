@@ -563,6 +563,7 @@ html:not([data-scroll='0']) {
       .header {
         min-height: auto;
         background: none;
+        margin-bottom: 20px;
         
     }
     .header2 {

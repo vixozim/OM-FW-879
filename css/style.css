@@ -548,6 +548,17 @@ html:not([data-scroll='0']) {
     display: none;
 }
 
+.idioma-activo {
+    color: #000000 !important;
+    
+    
+}
+.idioma-activo i {
+    display: inline-block;
+    color: var(--primary);
+    
+    
+}
 
 
   @media (max-width: 768px) {

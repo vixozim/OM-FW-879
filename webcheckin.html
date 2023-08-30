@@ -299,12 +299,12 @@
           
             <div class="container-xl">
                 <div class="row">
-                    <h5 class="text-primary pt-5 pb-5"><span class="trn">Ingrese sus datos para agilizar la entrega y evitar inconvenientes de espera</span></h5>
+                    <h5 class="text-primary pt-5 pb-5"><span class="trn">Ingrese sus datos para agilizar el proceso de entrega del vehículo.</span></h5>
                     <nav>
                         <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Sector 1</button>
-                          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Sector 2</button>
-                          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Sector 3</button>
+                          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Reserva</button>
+                          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Licencia</button>
+                          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Garantía</button>
                         </div>
                       </nav>
                       <div class="tab-content pb-3" id="nav-tabContent">
@@ -314,30 +314,41 @@
                                 <div class="row">
                  
                                     
-                                    <div class="form-group col-md-3">
-                                      
-                                        <input type="text" class="form-control  trn inputs-fw my-2" id="" placeholder="Nº de Reserva">
-                                      
-                                   
-                                </div>
-                                     <div class="form-group  col-md-3">
-                                        
-                                        <input type="text" class="form-control trn inputs-fw my-2" id="" placeholder="Lugar desde">
-                                      
-                                    </div>
-                                     <div class="form-group  col-md-3">
-                                        
-                                        <input type="text" name="datefilter" class="form-control trn inputs-fw my-2" id="" placeholder="Fecha Desde">
-                                      
-                                    </div>
-                                    <div class="form-group  col-md-3">
-                                       
-                                                                                    
-                                             <select class="form-control trn inputs-fw my-2" id="apiom_hora_desde"><option value="00:00"> 00:00 </option><option value="00:30"> 00:30 </option><option value="01:00"> 01:00 </option><option value="01:30"> 01:30 </option><option value="02:00"> 02:00 </option><option value="02:30"> 02:30 </option><option value="03:00"> 03:00 </option><option value="03:30"> 03:30 </option><option value="04:00"> 04:00 </option><option value="04:30"> 04:30 </option><option value="05:00"> 05:00 </option><option value="05:30"> 05:30 </option><option value="06:00"> 06:00 </option><option value="06:30"> 06:30 </option><option value="07:00"> 07:00 </option><option value="07:30"> 07:30 </option><option value="08:00"> 08:00 </option><option value="08:30"> 08:30 </option><option value="09:00"> 09:00 </option><option value="09:30"> 09:30 </option><option value="10:00" selected=""> 10:00 </option><option value="10:30"> 10:30 </option><option value="11:00"> 11:00 </option><option value="11:30"> 11:30 </option><option value="12:00"> 12:00 </option><option value="12:30"> 12:30 </option><option value="13:00"> 13:00 </option><option value="13:30"> 13:30 </option><option value="14:00"> 14:00 </option><option value="14:30"> 14:30 </option><option value="15:00"> 15:00 </option><option value="15:30"> 15:30 </option><option value="16:00"> 16:00 </option><option value="16:30"> 16:30 </option><option value="17:00"> 17:00 </option><option value="17:30"> 17:30 </option><option value="18:00"> 18:00 </option><option value="18:30"> 18:30 </option><option value="19:00"> 19:00 </option><option value="19:30"> 19:30 </option><option value="20:00"> 20:00 </option><option value="20:30"> 20:30 </option><option value="21:00"> 21:00 </option><option value="21:30"> 21:30 </option><option value="22:00"> 22:00 </option><option value="22:30"> 22:30 </option><option value="23:00"> 23:00 </option><option value="23:30"> 23:30 </option><!----></select>
-                                            
-                                        
-                                      
-                                    </div>
+                                    <!-- BREADCRUMBS -->
+        <div class="container-fluid pt-3 pb-3 border border-primary">
+            <div class="container">
+                <div class="row">
+                    <h4 id="apiom_confirmation_number pb-2" class="text-primary fw-light"><span class="trn">Reserva #12345</span></h5>
+                    <div class="col-md-4 col-5">
+                        <div class="row">
+                        <div class="col-md-2 desktop">
+                          <img src="img/in.svg" width="40px"/> 
+                        </div>
+                        <div class="col-md-10">
+                             <h6 class="text-secondary text-uppercase fs-mobile-1 trn">
+                              <span id="apiom_ciudad_desde_seleccionada" class="trn">El Calafate </span><br>
+                              <span id="apiom_dia_desde_seleccionada" > 1 </span><span id="apiom_mes_desde_seleccionada" > Jun</span> - <span id="apiom_hora_desde_seleccionada" >10:00HS</span> </h6>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4  col-5">
+                        <div class="row">
+                            <div class="col-md-2 desktop">
+                              <img src="img/out.svg" width="40px"/> 
+                            </div>
+                            <div class="col-md-10">
+                                 <h6 class="text-secondary text-uppercase fs-mobile-1">
+                                <span id="apiom_ciudad_hasta_seleccionada" class="trn">El Calafate </span><br>
+                                <span id="apiom_dia_hasta_seleccionada" > 7 </span> <span id="apiom_mes_hasta_seleccionada"> Jun</span> - <span id="apiom_hora_hasta_seleccionada" >10:00HS</span> </h6>
+                            </div>
+                            </div>
+                    </div>
+                   
+    
+                    </div>
+            </div>
+        </div>
+        <!-- /BREADCRUMBS -->
                                     <h5 class="text-secondary pt-3 pb-3"><span class="trn">DATOS DEL VUELO (Opcionales)</span></h5>
                                     <div class="form-group  col-md-3">
                                         
@@ -550,17 +561,21 @@
 
 
 
+                         </div>
+
+                         <div class="row mt-4 mb-3 p-2 border-bottom border-top border-primary text-center">
+                                        
+                            <div class="col-md-12">
+                               <h6 class="text-primary">Sitio Seguro</h6>
+                                <p class="text-dark fs-7 trn">Todos los datos ingresados se guardan de forma segura y encriptada.</p>
+
+                            </div>
+
                           
 
-                  
+                       
+                        </div>    
 
-                           
-
-
-
-
-
-                         </div>
                         
                         
                         </div>
